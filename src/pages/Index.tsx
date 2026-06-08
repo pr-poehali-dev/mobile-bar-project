@@ -49,7 +49,7 @@ export default function Index() {
       <nav className="fixed top-0 left-0 right-0 z-50 backdrop-blur-md bg-[#0F0B08]/80 border-b border-[#2A2018]">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
           <a href="#" className="font-display text-2xl font-bold tracking-widest neon-text">
-            БАР<span className="text-white">ВЭ</span>ГОН
+            Mix<span className="text-white">Bar</span>
           </a>
           <div className="hidden md:flex items-center gap-8">
             {NAV_LINKS.map((link) => (
@@ -292,7 +292,7 @@ export default function Index() {
           <div className="text-center mb-16">
             <div className="tag-badge mb-4">Галерея</div>
             <h2 className="font-display text-5xl md:text-6xl font-bold">
-              АТМОСФЕРА <span className="neon-text">БАРВЭГОНА</span>
+              АТМОСФЕРА <span className="neon-text">MIXBAR</span>
             </h2>
           </div>
 
@@ -437,10 +437,10 @@ export default function Index() {
       <footer className="border-t border-[#2A2018] py-8 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="font-display text-xl font-bold tracking-widest neon-text">
-            БАР<span className="text-white">ВЭ</span>ГОН
+            Mix<span className="text-white">Bar</span>
           </div>
           <div className="text-white/30 text-sm text-center">
-            © 2024 БАРВЭГОН — Мобильный бар. Все права защищены.
+            © 2024 MixBar — Мобильный бар. Все права защищены.
           </div>
           <div className="flex gap-6 flex-wrap justify-center">
             {NAV_LINKS.map((link) => (
